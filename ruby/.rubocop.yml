@@ -1,0 +1,16 @@
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.5
+
+# Fit into half-width RubyMine window on a 1680x1050 screen resolution.
+Metrics/LineLength:
+  Max: 109
+
+# Not relevant for tiny spikes:
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
